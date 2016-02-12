@@ -1,0 +1,288 @@
+/***********************************************************
+						Main Header
+************************************************************/
+/*   3     #    */
+
+ {
+	border: 2px solid red;
+}
+
+
+
+
+html, body {
+	height: 100%;
+}
+
+.body-main {
+	background-image: url("../img/Texture/body.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+}
+
+.body-nav2 {
+	background-image: url("../img/bluee/blue-and-white-color-simple-desktop-background-wide copy.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.body-nav1 {
+	background-image: url("../img/bluee/blue-and-white-color-simple-desktop-background-wide copy 2.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.sidebar {
+	float: left;
+	position: fixed;
+	margin: 10px 0 10px 10px;
+	padding: 0px 10px 0px 10px;
+	background-color: #83D4EF;
+	border-radius: 20px;
+}
+
+.sidebar ul {
+	list-style: none;
+	margin: 14px 0 0;
+}
+
+.sidebar img {
+	max-height: 35px;
+	min-height: 35px;
+	max-width: 35px;
+	min-width: 35px;
+	border-radius: 25%;
+}
+
+.A:hover,
+.B:hover,
+.C:hover {
+	opacity: 0.5;
+}
+
+img.invert {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+}
+
+.B {
+	margin: 9px 0 0;
+}
+
+.C {
+	margin: 857px 0 9px 0;
+
+}
+
+.C img {
+	border-radius: 50%;
+}
+
+.top-top {
+	text-align: center;
+}
+
+.li-h5 {
+	float: left;
+	margin-left: 14%;
+}
+
+.li-h6 {
+	float: right;
+	margin-right: 14%;
+}
+
+.top-top a, .top-top a :visited {
+	text-decoration: none;
+	color: #000;
+}
+
+.top-top a.selected, .top-top a :hover {
+	color: #999;
+}
+
+h5, h6 {
+	margin: 26px 0 0;
+	font-size: 35px;
+}
+
+header {
+	margin-left: 75px;
+}
+
+header h1 {
+	font-size: 57px;
+	margin: 0;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 0;	
+}
+
+header li {
+	display: inline-block;
+}
+
+.li-h2 {
+	float: left;
+	margin: 0 0 0 14%;
+}
+
+.li-h4 {
+	float: right;
+	margin: 0 14% 0 0;
+}
+
+h2, h4 {
+	font-size: 40px;
+	margin: 0;
+}
+
+
+.t-border {
+	display:block;
+	margin: 0 14% 0 14%;
+	border-top: 7px solid;
+	border-radius: 40%;
+}
+
+.t-border ul {
+	margin: 0;
+}
+
+ section {
+	margin: 50px 12% 100px;
+	font-size: 25px;
+}
+
+
+
+/***********************************************************
+					Modified Header
+************************************************************/
+/*   3     #    */
+
+.aboveallmain {
+	margin-right: 11px;
+	padding: 0 0 53px;
+	border-radius: 60px;
+	background-image: url("../img/Texture/nav.jpg");
+	background-repeat: no-repeat;
+	background-position: -75px -90px;
+}
+
+.aboveallnav1 {
+	background-image: url("../img/bluee/blue-and-white-color-simple-desktop-background-wide copy 3.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 26.5%;
+}
+
+.aboveallnav2  {
+	margin-right: 10px;
+	padding: 0 0 53px;
+	border-radius: 60px;
+	background-image: url("../img/bluee/blue-and-white-color-simple-desktop-background-wide.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 26.5%;
+}
+
+.aboveallnav1,
+.aboveallnav2 {
+	margin-right: 11px;
+	padding: 0 0 8px;
+	border-radius: 60px;
+}
+
+.sec-sec {
+	text-align: center;
+}
+
+.li-h7{
+	margin: 5px 0 0 0;
+}
+
+h7 {
+	font-size: 35px;
+}
+
+.sec-sec a {
+	text-decoration: none;
+	color: #000;
+}
+
+.sec-sec a :hover {
+	color: #999;
+}
+
+
+
+
+
+/***********************************************************
+						Main Footer
+************************************************************/
+/*   3     #    */
+
+* {
+margin: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -76px;
+}
+
+.footer, .push {
+height: 10px;
+}
+
+footer p, footer span {
+	text-align: center;
+	font-size: 25px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************************
+						Notes
+************************************************************/
+/*   3     #    */
+
+/*
+RGBA (*, *, *, *)
+	The Alpha can be used for hovering links, it fades. Ratio of 1
+
+*/
+/*
+Line-height 1.5;
+
+Font: weight size/height family;
+
+*/
+
+/*box-sizing: border-box;*/
