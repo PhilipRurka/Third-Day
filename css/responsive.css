@@ -1,8 +1,18 @@
-@media screen and (max-width: 1350px) {
-	body {
+/***********************************************************
+							
+************************************************************/
+/*   3     #    */
+
+
+@media screen and (max-width: 1352px) {
+	.body-nav1,
+	.body-nav2 {
 		background-image: url("../img/bluee/blue-and-white-color-simple-desktop-background-wideside.jpg");
 		background-attachment: fixed;
 		background-position: center; 
 	}
 
-	
+	.wrapper-icon1 {
+	background-attachment: fixed;
+	}
+

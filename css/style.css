@@ -155,7 +155,7 @@ h2, h4 {
 }
 
  section {
-	margin: 50px 12% 100px;
+	margin: 50px 14% 100px;
 	font-size: 25px;
 }
 
@@ -244,6 +244,7 @@ margin: 0 auto -76px;
 
 .footer, .push {
 height: 10px;
+margin-left: 65px;
 }
 
 footer p, footer span {
@@ -258,9 +259,30 @@ footer p, footer span {
 
 
 
+/***********************************************************
+							icon
+************************************************************/
+/*   3     #    */
 
 
+.wrapper-icon1 {
+	background-size: 75%;
+	background-image: url("../img/Texture/google-nexys-android-gugl.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 0 -76px 65px;
+}
 
+.header-icon1 {
+	margin-left: 0px;
+}
+
+.aboveall-icon1 {
+	margin: 0 0 0 0;
+}
 
 
 
